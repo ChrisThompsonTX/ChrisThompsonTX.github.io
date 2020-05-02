@@ -2854,6 +2854,7 @@ input, select, textarea {
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			border: solid 1px slategrey;
 		}
 
 		.header-info {
@@ -2862,6 +2863,7 @@ input, select, textarea {
 
 		.profile-img {
 			height: 5em;
+
 		}
 		
 
