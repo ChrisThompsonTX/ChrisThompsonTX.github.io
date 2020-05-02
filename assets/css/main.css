@@ -2573,9 +2573,14 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
+
+		.skills, .about {
+			margin-top: 4em;
+		}
+
 
 		.tiles article {
 			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
@@ -2832,7 +2837,7 @@ input, select, textarea {
 	#header {
 		margin: 8em 8em 0em 8em;
 		padding-top: 2em;
-		background-color: #7bd0c1;
+		background-color: #e8eaed;
 	}
 
 		header {
@@ -3181,7 +3186,7 @@ input, select, textarea {
 	#main {
 		margin: 0em 8em 6em 8em ;
 		padding-bottom: 2em;
-		background-color: #7bd0c1;
+		background-color: #e8eaed;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -3357,3 +3362,30 @@ input, select, textarea {
 			}
 
 		}
+
+	#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+	}
+
+	.skill-item	img {
+		height: 4em;
+		filter: grayscale(100%);
+	}
+
+	.skill-item:hover img {
+		filter: grayscale(0%);
+		transition: ease-in-out .2s;
+	}
+
+	.skill-icon-container {
+		width: 100%;
+		display: flex;
+		justify-content: space-evenly;
+		padding-bottom: 1em;
+		/* align-items: center; */
+	}
