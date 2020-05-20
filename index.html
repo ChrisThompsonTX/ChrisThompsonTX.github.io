@@ -219,6 +219,24 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				const pressed = [];
+				const secretCode = ['ArrowUp', 'ArrowUp', 
+					'ArrowDown', 'ArrowDown', 
+					'ArrowLeft', 'ArrowRight',
+					'ArrowLeft', 'ArrowRight',
+					'b', 'a'
+					];
+
+				window.addEventListener('keyup', (e) => {
+					pressed.push(e.key);
+					pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+					console.log(pressed)
+					if ( pressed.join('').includes(secretCode.join(''))) {
+						window.location.href = 'http://www.christhompson.online/v2.0'
+					}
+				})
+			</script>
 
 	</body>
 </html>
