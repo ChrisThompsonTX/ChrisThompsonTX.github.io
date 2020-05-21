@@ -2989,6 +2989,7 @@ input, select, textarea {
 
 			#header {
 				padding: 4em 0 0.1em 0 ;
+				margin: 0;
 			}
 
 				#header nav {
@@ -3050,6 +3051,10 @@ input, select, textarea {
 			opacity: 0;
 			overflow-y: auto;
 		}
+
+			#menu > .skills {
+				
+			}
 
 			#menu > .inner > ul {
 				list-style: none;
@@ -3145,6 +3150,10 @@ input, select, textarea {
 				width: 16.5em;
 			}
 
+			#myVideo {
+				display: none;
+			}
+
 				#menu > .inner {
 					padding: 2.75em 1.5em;
 				}
@@ -3200,6 +3209,7 @@ input, select, textarea {
 
 			#main {
 				padding: 0em 0 4em 0 ;
+				margin: 0;
 			}
 
 		}
