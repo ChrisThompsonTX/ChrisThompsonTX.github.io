@@ -15,9 +15,20 @@
 	</head>
 	<body class="is-preload">
 
-		<video autoplay muted loop id="myVideo">
+		<!-- <video autoplay muted loop id="myVideo">
 			<source src="https://tappd-seeds.s3-us-west-1.amazonaws.com/Pexels+Videos+4703.mp4">
-		</video>
+		</video> -->
+		<div id="particles-js">
+		
+		</div>
+		
+		<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+		
+		<script>
+			particlesJS.load('particles-js', 'particles.json', function () {
+				console.log('particles.json loaded...');
+			});
+		</script>
 
 		<!-- Wrapper -->
 			<div id="wrapper">

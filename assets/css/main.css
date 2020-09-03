@@ -34,6 +34,11 @@ body {
 	background-color: #585858;
 }
 
+#particles-js{
+  background:rgb(189, 189, 189);
+  height:100vh;
+}
+
 ol, ul {
 	list-style: none;
 }
